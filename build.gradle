@@ -47,3 +47,7 @@ dependencies {
     implementation "com.zaxxer:HikariCP:$hikaricp_version"
 
 }
+
+task stage {
+    dependsOn installDist
+}
